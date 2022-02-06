@@ -25,7 +25,7 @@ import React, { Component } from 'react';
              <button 
              onClick={ () => this.handleIncrement(product) }
              className="btn btn-secondary btn-sm">
-                 Increment
+                 Increment Counter
                  </button>
              
         </div>
