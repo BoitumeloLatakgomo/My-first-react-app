@@ -7,18 +7,17 @@ import React, { Component } from 'react';
        
     };
     
-    handleIncrement = (product) => {
+    handleIncrement = product => {
       console.log(product);
     
         this.setState({count: this.state.count + 1});
     };
    
-    doHandleIncrement = () => {
-        this.handleIncrement({ id: 1});
-    };
+    
     render() { 
         
         
+        const product = {id:1};
         return(
         <div>
              <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
